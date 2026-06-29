@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive suite of projects that implement **Huffman Coding** for file compression across multiple platforms and interfaces. It demonstrates the same core algorithm used in different environments — command-line in C++, GUI in Python (Tkinter), and Web (Flask + HTML/CSS/JS).
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -16,37 +16,37 @@ This repository contains a comprehensive suite of projects that implement **Huff
 
 ---
 
-## 📦 Subprojects Overview
+## Subprojects Overview
 
-### 1. 🔧 **File Compressor (C++ CLI Tool)**
+### 1. **File Compressor (C++ CLI Tool)**
 
 - A full implementation of Huffman coding in C++.
 - Supports encoding and decoding of files.
 - Built as a command-line executable `huffman_compressor.exe`.
 
-📂 Located in: [`File Compressor/`](./File%20Compressor/)  
-📖 Details in: [`File Compressor/README.md`](./File%20Compressor/README.md)
+Located in: [`File Compressor/`](./File%20Compressor/)  
+Details in: [`File Compressor/README.md`](./File%20Compressor/README.md)
 
 ---
 
-### 2. 🌐 **HuffmanWebApp (Flask Web App)**
+### 2. **HuffmanWebApp (Flask Web App)**
 
 - A web-based frontend to the C++ compressor using Flask.
 - Lets users upload a file, compress it using the compiled `.exe`, and download the compressed result.
 - Uses `HTML`, `CSS`, and optionally `JavaScript`.
 
-📂 Located in: [`HuffmanWebApp/`](./HuffmanWebApp/)  
-📖 Details in: [`HuffmanWebApp/README.md`](./HuffmanWebApp/README.md)
+Located in: [`HuffmanWebApp/`](./HuffmanWebApp/)  
+Details in: [`HuffmanWebApp/README.md`](./HuffmanWebApp/README.md)
 
 ---
 
-### 3. 🖥️ **TextCompressorLearn (Tkinter GUI in Python)**
+### 3. **TextCompressorLearn (Tkinter GUI in Python)**
 
 - Educational GUI to visualize how Huffman Coding works.
 - Allows users to enter text, view Huffman codes, and see compression results.
 
-📂 Located in: [`TextCompressorLearn/`](./TextCompressorLearn/)  
-📖 Details in: [`TextCompressorLearn/README.md`](./TextCompressorLearn/README.md)
+Located in: [`TextCompressorLearn/`](./TextCompressorLearn/)  
+Details in: [`TextCompressorLearn/README.md`](./TextCompressorLearn/README.md)
 
 ---
 
@@ -109,9 +109,9 @@ To change the speed of compression (e.g., simulate slower/faster behavior), modi
 
 ##  Author
 
-**Dasari Veera Venkata Abhinav Teja**
+**Kolli Surya Shashank**
 B.Tech CSE @ IIT Kharagpur
-GitHub: [@abhinavteja2005](https://github.com/abhinavteja2005)
+GitHub: Suryashashank5779
 
 ---
 
