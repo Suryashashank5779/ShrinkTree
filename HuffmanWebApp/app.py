@@ -37,7 +37,9 @@ def index():
             file.save(input_path)
 
             # Path to C++ compressor executable
-            compressor_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "huffman_compressor.exe"))
+            import platform
+            executable_name = "huffman_compressor.exe" if platform.system() == "Windows" else "huffman_compressor"
+            compressor_path = os.path.abspath(os.path.join(os.path.dirname(__file__), executable_name))
 
             # Debug info
             print("Compressor path:", compressor_path)
