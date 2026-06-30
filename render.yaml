@@ -2,7 +2,7 @@ services:
   - type: web
     name: shrinktree
     env: python
-    buildCommand: g++ -std=c++17 -I"File Compressor/include" "File Compressor/src/"*.cpp -o HuffmanWebApp/huffman_compressor && pip install -r requirements.txt
+    buildCommand: g++ -std=c++17 -I"File Compressor/include" "File Compressor/main.cpp" "File Compressor/src/"*.cpp -o HuffmanWebApp/huffman_compressor && pip install -r requirements.txt
     startCommand: gunicorn --chdir HuffmanWebApp app:app
     envVars:
       - key: PYTHON_VERSION
